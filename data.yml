@@ -11,8 +11,8 @@ locations:
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
       "73":
-        database: EVAN_DEV_EDW
-        schema: DEV_RAW
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   STG:
     mappingDefinitions:
       "62":
@@ -34,7 +34,7 @@ locations:
         schema: STAGE
       "73":
         database: EVAN_DEV_EDW
-        schema: INFORMATION_SCHEMA
+        schema: DEV_RAW
 macros: {}
 packages: {}
 projects: {}
