@@ -11,8 +11,8 @@ locations:
         database: COALESCE_SAMPLE_DATABASE
         schema: TPCH_SF001
       "73":
-        database: EVAN_DEV_EDW
-        schema: INFORMATION_SCHEMA
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   STG:
     mappingDefinitions:
       "62":
