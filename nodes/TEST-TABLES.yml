@@ -1,0 +1,379 @@
+steps:
+  TABLES-423583e3-48ef-47cf-a6b1-abf14ea30712:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: The tables defined in this database that are accessible to the current user's role.
+      locationID: ""
+      locationName: TEST
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ec3a9a3b-6fae-4d08-bbcd-7b6ff6b8ccde
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Database that the table belongs to
+            name: TABLE_CATALOG
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 4f0374de-5ad8-4930-8434-0828dfc427a6
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Schema that the table belongs to
+            name: TABLE_SCHEMA
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: f3c13815-61c1-47d9-b1da-b6a91b5eeded
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Name of the table
+            name: TABLE_NAME
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 03d86b0c-d52f-4fa9-a0e0-43e7f94578cc
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Name of the role that owns the table
+            name: TABLE_OWNER
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: dda0a4d3-33e7-4a4d-b470-892e660466a6
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Whether the table is a base table, temporary table, or view
+            name: TABLE_TYPE
+            nullable: false
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 222f43c8-cba5-4900-a9d2-ae3b9deb86ac
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Whether this is a transient table
+            name: IS_TRANSIENT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 9fe9afb8-3e31-4865-aeb1-bd7baa2a98f3
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Clustering key for the table
+            name: CLUSTERING_KEY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 9962fb1f-3c14-46ed-8c54-d35822ede22d
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Number of rows in the table
+            name: ROW_COUNT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 28741ec5-93e0-445a-93a0-a117d17a8e44
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: NUMBER(38,0)
+            defaultValue: ""
+            description: Number of bytes accessed by a scan of the table
+            name: BYTES
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ec910542-773d-4282-b14d-84154cd52f21
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: NUMBER(9,0)
+            defaultValue: ""
+            description: Number of days that historical data is retained for Time Travel
+            name: RETENTION_TIME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 693cca1a-87d2-4946-8a58-e088b2587c70
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: SELF_REFERENCING_COLUMN_NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 01b9a218-5de3-44f9-9adf-7a6a6538a973
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: REFERENCE_GENERATION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 944f1311-9851-437e-9b3c-3f1f06a7c60f
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: USER_DEFINED_TYPE_CATALOG
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 01548298-24c2-49b2-9be2-a5e56a079996
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: USER_DEFINED_TYPE_SCHEMA
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: ac86a00d-d8e8-4f85-a2d4-563ed83fccd2
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: USER_DEFINED_TYPE_NAME
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 859448e0-7d70-4076-bc21-d75292182f67
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: IS_INSERTABLE_INTO
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 0a181eed-ef94-4867-ab4c-f179efe09cdb
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: IS_TYPED
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 1bc92e5f-6e89-4361-a0ba-3ae1d0dcb1c2
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Not applicable for Snowflake.
+            name: COMMIT_ACTION
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a435b555-64d7-4f3f-8414-d1d9decced7e
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: TIMESTAMP_LTZ(9)
+            defaultValue: ""
+            description: Creation time of the function
+            name: CREATED
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: a0d579b2-1e1f-4652-9ab3-55c6797284af
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: TIMESTAMP_LTZ(9)
+            defaultValue: ""
+            description: Last altered time of the function
+            name: LAST_ALTERED
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6720459d-b3f9-4cb6-976a-e12ecfa9ea82
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: TIMESTAMP_LTZ(9)
+            defaultValue: ""
+            description: Last DDL time of the table
+            name: LAST_DDL
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: d7b618e8-d9ef-41d6-91e1-a4735b9fa40f
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: User name that performed the Last DDL of the table
+            name: LAST_DDL_BY
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: c5573986-4432-403d-a1ac-8b30c4f77784
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(3)
+            defaultValue: ""
+            description: Whether automatic clustering is on for the table
+            name: AUTO_CLUSTERING_ON
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 5154ce8e-a9f3-49e9-8eb8-c17e2748f089
+              stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
+            config: {}
+            dataType: VARCHAR(16777216)
+            defaultValue: ""
+            description: Comment for this table
+            name: COMMENT
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('TEST', 'TABLES') }}
+      name: TABLES
+      schema: ""
+      sqlType: Source
+      table: TABLES
+      type: sourceInput
+    stepCounter: 423583e3-48ef-47cf-a6b1-abf14ea30712
