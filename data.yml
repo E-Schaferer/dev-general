@@ -34,7 +34,7 @@ locations:
         schema: STAGE
       "73":
         database: EVAN_DEV_EDW
-        schema: DEV_RAW
+        schema: INFORMATION_SCHEMA
 macros: {}
 packages: {}
 projects: {}
