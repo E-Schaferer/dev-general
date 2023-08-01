@@ -1,4 +1,5 @@
 defaultStorageMapping: TEST
+installedPackages: {}
 jobs: {}
 locations:
   SRC:
@@ -12,6 +13,9 @@ locations:
       "73":
         database: DEV_EVAN_V_5_5
         schema: PROD_RAW
+      "75":
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   STG:
     mappingDefinitions:
       "62":
@@ -23,6 +27,9 @@ locations:
       "73":
         database: DEV_EVAN_V_5_5
         schema: PROD_STAGING
+      "75":
+        database: EVAN_DEV_EDW
+        schema: DEV_STAGING
   TEST:
     mappingDefinitions:
       "62":
@@ -34,6 +41,9 @@ locations:
       "73":
         database: DEV_EVAN_V_5_5
         schema: PROD_DATA_MART
+      "75":
+        database: EVAN_DEV_EDW
+        schema: DEV_RAW
 macros: {}
 packages: {}
 projects: {}
